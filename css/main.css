@@ -1,10 +1,10 @@
-/*-------------------DESKTOP VERSION---------------------*/
+/*-------------------Mobile VERSION---------------------*/
 
 a:link {
   color: #fff;
   text-decoration: none;
   font-family: "Avenir", sans-serif;
-  font-size: 18px;
+  font-size: 2rem;
 }
 
 a:visited {
@@ -38,6 +38,10 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+p {
+  font-size: 1rem;
+}
+
 .sr-only {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -56,33 +60,29 @@ main {
 h2 {
   text-align: center;
 }
+
 #logo img {
   max-width: 80%;
   margin: auto;
   display: block;
   margin-bottom: -20px;
+  margin-top: -20px;
 }
 
 #ep_cover img {
-  width: 125%;
-  margin-left: -13%;
-  display: block;
-}
-
-/*
-#logo img {
-  max-width: 80%;
+  width: 80%;
   margin: auto;
   display: block;
-  margin-bottom: -20px;
+  padding-top: 20px;
 }
 
-#ep_cover img {
+#listen-container {
+  background-color: #0d4a4e;
   width: 125%;
-  margin-left: -13%;
-  display: block;
+  margin-left: -12.5%;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
-*/
 .blurb {
   max-width: 80%;
   margin: 10%;
@@ -90,33 +90,58 @@ h2 {
 }
 
 #streaming-container {
-  display: flex;
-  flex-direction: column;
   width: 65%;
   margin-left: 17.5%;
 }
 .streaming {
   color: white;
   border: solid 1px white;
-  border-radius: 40px;
-  height: 50px;
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 500px;
+  height: 89px;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .link {
   position: relative;
-  top: -13px;
-  left: 20px;
+  top: -30px;
+  left: 25px;
 }
 .streaming img {
-  max-width: 15%;
-  margin-left: 5px;
+  max-width: 16%;
+  margin-left: 10px;
   margin-top: 3px;
 }
 
-.spacer {
+#show-container {
+  padding-top: 40px;
+}
+
+.show {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 0,
+    from(black),
+    to(black),
+    color-stop(50%, white)
+  );
+}
+
+.divider2 {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -126,8 +151,8 @@ h2 {
     linear,
     0 0,
     100% 0,
-    from(black),
-    to(black),
+    from(#0d4a4e),
+    to(#0d4a4e),
     color-stop(50%, white)
   );
 }
