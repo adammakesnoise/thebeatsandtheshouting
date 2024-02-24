@@ -1,31 +1,41 @@
 /*-------------------Mobile VERSION---------------------*/
 
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 800
+
+.dosis-<uniquifier > {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 a:link {
   color: #fff;
   text-decoration: none;
-  font-family: "Avenir", sans-serif;
-  font-size: 2rem;
+  font-family: "Dosis", sans-serif;
+  font-size: 2.1rem;
 }
 
 a:visited {
   color: #000;
   text-decoration: none;
-  font-family: "Avenir", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 a:active {
   color: #000;
   text-decoration: none;
-  font-family: "Avenir", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 a:hover {
   color: #fff;
   text-decoration: underline;
-  font-family: "Avenir", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 a:focus {
   color: #fff;
   text-decoration: underline;
-  font-family: "HelvAveniretica", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 html,
@@ -35,11 +45,16 @@ body {
   color: rgb(245, 245, 245);
   margin: 0px;
   overflow: auto;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Dosis", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 p {
   font-size: 1rem;
+  font-family: "Dosis";
 }
 
 .sr-only {
@@ -57,6 +72,11 @@ main {
   margin-left: 10%;
 }
 
+footer {
+  padding-top: 80px;
+  text-align: center;
+}
+
 h2 {
   text-align: center;
 }
@@ -65,7 +85,7 @@ h2 {
   max-width: 80%;
   margin: auto;
   display: block;
-  margin-bottom: -20px;
+  margin-bottom: -100px;
   margin-top: -20px;
 }
 
@@ -73,9 +93,19 @@ h2 {
   width: 80%;
   margin: auto;
   display: block;
-  padding-top: 20px;
+  box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
 }
-
+.upper-border {
+  width: 125%;
+  margin-left: -12.5%;
+  margin-bottom: -15px;
+}
+.lower-border {
+  width: 125%;
+  margin-left: -12.5%;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
 #listen-container {
   background-color: #0d4a4e;
   width: 125%;
@@ -99,8 +129,8 @@ h2 {
   border-radius: 500px;
   height: 89px;
   padding: 20px;
-  width: 80%;
-  margin-left: 10%;
+  width: 75%;
+  margin-left: 12.5%;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -112,8 +142,8 @@ h2 {
 }
 .streaming img {
   max-width: 16%;
-  margin-left: 10px;
-  margin-top: 3px;
+  margin-left: 15px;
+  margin-top: 5px;
 }
 
 #show-container {
@@ -155,4 +185,9 @@ h2 {
     to(#0d4a4e),
     color-stop(50%, white)
   );
+}
+
+.social-icon {
+  width: 100px;
+  padding: 20px;
 }
