@@ -1,12 +1,9 @@
 /*-------------------Mobile VERSION---------------------*/
 
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 200 to 800
-
-.dosis-<uniquifier > {
+.dosis-gfont {
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -22,6 +19,7 @@ a:visited {
   text-decoration: none;
   font-family: "Dosis", sans-serif;
 }
+
 a:active {
   color: #000;
   text-decoration: none;
