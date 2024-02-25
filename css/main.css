@@ -11,7 +11,6 @@ a:link {
   color: #fff;
   text-decoration: none;
   font-family: "Dosis", sans-serif;
-  font-size: 2.1rem;
 }
 
 a:visited {
@@ -124,27 +123,42 @@ h2 {
 }
 .streaming {
   color: white;
-  border: solid 1px white;
+  border: solid 2px white;
   border-radius: 500px;
-  height: 89px;
+  height: 120px;
   padding: 20px;
-  width: 75%;
-  margin-left: 12.5%;
+  width: 85%;
+  margin-left: 7.5%;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.1);
+  display: inline-block;
 }
 
 .link {
   position: relative;
   top: -30px;
   left: 25px;
+  font-size: 2.6rem;
 }
 .streaming img {
   max-width: 16%;
   margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 18px;
 }
 
+.streaming a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.streaming:hover,
+.streaming:focus-within {
+  box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.3);
+}
 #show-container {
   padding-top: 40px;
 }
