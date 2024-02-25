@@ -131,7 +131,9 @@ li.streaming {
   border-radius: 500px;
   list-style-type: none;
   display: inline-block;
-  margin: 1rem;
+  margin-bottom: 1rem;
+  margin-bottom: 1rem;
+
   position: relative;
   padding: 20px;
   padding-bottom: 50px;
