@@ -120,39 +120,42 @@ h2 {
 #streaming-container {
   width: 65%;
   margin-left: 17.5%;
+  display: block;
+  list-style-type: disc;
 }
-.streaming {
-  color: white;
+
+li.streaming {
+  width: 85%;
   border: solid 2px white;
   border-radius: 500px;
-  height: 120px;
-  padding: 20px;
-  width: 85%;
-  margin-left: 7.5%;
-  margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
+  list-style-type: none;
   display: inline-block;
-}
-
-.link {
+  margin: 1rem;
   position: relative;
-  top: -30px;
-  left: 25px;
+  padding: 20px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
   font-size: 2.6rem;
 }
-.streaming img {
-  max-width: 16%;
-  margin-left: 15px;
-  margin-top: 18px;
-}
 
-.streaming a::after {
+li.streaming a::after {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
+}
+
+.link {
+  margin-left: 25%;
+  margin-top: -15%;
+}
+
+.streaming img {
+  max-width: 16%;
+  margin-left: 15px;
+  margin-top: 17px;
 }
 
 .streaming:hover,
