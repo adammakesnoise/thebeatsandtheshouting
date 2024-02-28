@@ -14,29 +14,28 @@ a:link {
 }
 
 a:visited {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   font-family: "Dosis", sans-serif;
 }
 
 a:active {
-  color: #000;
+  color: #a9a9a9;
   text-decoration: none;
   font-family: "Dosis", sans-serif;
 }
-a:hover {
-  color: #fff;
-  text-decoration: underline;
-  font-family: "Dosis", sans-serif;
-}
+
 a:focus {
-  color: #fff;
-  text-decoration: underline;
-  font-family: "Dosis", sans-serif;
+  outline: 1px solid yellow;
+  border-radius: 10px;
+  display: inline-block;
+  outline-offset: 10px;
 }
 
-html,
-body {
+a:focus img {
+}
+
+html {
   width: 100%;
   background: rgb(10, 10, 10);
   color: rgb(245, 245, 245);
@@ -44,6 +43,11 @@ body {
   overflow: auto;
   font-family: "Dosis", sans-serif;
   font-size: 16px;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
 }
 
 h2 {
@@ -209,4 +213,7 @@ li.streaming a::after {
 .social-icon {
   width: 100px;
   padding: 20px;
+}
+
+.social-link {
 }
