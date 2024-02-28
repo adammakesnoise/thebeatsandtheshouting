@@ -32,9 +32,6 @@ a:focus {
   outline-offset: 10px;
 }
 
-a:focus img {
-}
-
 html {
   width: 100%;
   background: rgb(10, 10, 10);
@@ -213,7 +210,4 @@ li.streaming a::after {
 .social-icon {
   width: 100px;
   padding: 20px;
-}
-
-.social-link {
 }
