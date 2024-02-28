@@ -214,10 +214,12 @@ li.streaming a::after {
   padding: 20px;
 }
 
-#mc_embed_signup {
-  font: 1rem "Dosis", Arial, sans-serif;
-  width: 60%;
+#mc_embed_shell {
+  max-width: 60%;
   margin: auto;
+#mc_embed_signup {
+  font: 1.5rem "Dosis", sans-serif;
+ 
 }
 
 #mc_embed_signup .mc-field-group {
