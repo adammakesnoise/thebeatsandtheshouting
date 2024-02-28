@@ -127,15 +127,13 @@ h2 {
 }
 
 li.streaming {
-  width: 85%;
+  width: 80%;
   border: solid 2px white;
   border-radius: 500px;
   list-style-type: none;
   display: inline-block;
   margin-bottom: 1rem;
   margin-bottom: 1rem;
-
-  position: relative;
   padding: 20px;
   padding-bottom: 50px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -175,6 +173,10 @@ li.streaming a::after {
   text-align: center;
 }
 
+.show a {
+  text-decoration: underline;
+}
+
 .divider {
   width: 100%;
   margin-top: 20px;
@@ -210,4 +212,18 @@ li.streaming a::after {
 .social-icon {
   width: 100px;
   padding: 20px;
+}
+
+#mc_embed_signup {
+  font: 1rem "Dosis", Arial, sans-serif;
+  width: 60%;
+  margin: auto;
+}
+
+#mc_embed_signup .mc-field-group {
+  margin-left: 1%;
+}
+
+#mc_embed_signup .optionalParent {
+  margin-left: 1%;
 }
