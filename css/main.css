@@ -217,9 +217,10 @@ li.streaming a::after {
 #mc_embed_shell {
   max-width: 60%;
   margin: auto;
+}
+
 #mc_embed_signup {
   font: 1.5rem "Dosis", sans-serif;
- 
 }
 
 #mc_embed_signup .mc-field-group {
