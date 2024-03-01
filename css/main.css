@@ -122,7 +122,7 @@ h2 {
 #streaming-container {
   width: 65%;
   margin-left: 17.5%;
-  display: block;
+  display: inline-block;
   list-style-type: disc;
 }
 
@@ -132,6 +132,7 @@ li.streaming {
   border-radius: 500px;
   list-style-type: none;
   display: inline-block;
+  position: relative;
   margin-bottom: 1rem;
   margin-bottom: 1rem;
   padding: 20px;
@@ -163,18 +164,20 @@ li.streaming a::after {
 .streaming:hover,
 .streaming:focus-within {
   box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.3);
-}
-#show-container {
-  padding-top: 40px;
+  border: solid 2px yellowgreen;
 }
 
 .show {
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
 .show a {
   text-decoration: underline;
+}
+
+#show-container p {
+  margin-top: -30px;
 }
 
 .divider {
